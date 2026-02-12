@@ -1,26 +1,7 @@
 # About Me
 
 ## Name
-<!-- Replace with your name -->
-[Your Name]
+Prakash K
 
 ## Resume
-
-<!-- Replace with your resume / bio below -->
-
-**Role**: [Your Role / Title]
-
-**Education**:
-- [Degree, University, Year]
-
-**Experience**:
-- [Company — Role — Duration]
-  - [Key responsibility or achievement]
-
-**Skills**:
-- [Skill 1, Skill 2, Skill 3]
-
-**Links**:
-- LinkedIn: [your-linkedin-url]
-- Portfolio: [your-portfolio-url]
-- GitHub: [your-github-url]
+[View Resume (Google Drive)](https://drive.google.com/file/d/1UyaLoTJeGChFZQjE86lK0j4vtNAPMkZW/view?usp=sharing)

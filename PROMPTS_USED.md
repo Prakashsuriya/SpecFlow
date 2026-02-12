@@ -19,17 +19,57 @@ Records of prompts used during app development with the AI coding assistant.
 > - Store last 5 generated specs in local storage
 > - Inline editing of title, description, and metadata
 
-## Prompt 2 — Export Modal Fix
+## Prompt 2 — Tech Stack Migration
 
-> When I click the export button this window is not appearing on top, I have to scroll down to see it, but I want it to appear on the top itself.
+> Migrate the project from vanilla HTML/CSS/JS to a modern framework stack:
+> - **Runtime**: React.js with Node.js tooling
+> - **Styling**: Tailwind CSS for utility-first design
+>
+> Ensure all existing features and planned architecture carry over to the new stack.
 
-## Prompt 3 — Documentation
+## Prompt 3 — Export Modal UX Fix
 
-> A short README: how to run, what is done.
-> A short AI_NOTES.md: what you used AI for, and what you checked yourself. Which LLM and provider does your app use and why.
-> Put your name and resume in ABOUTME.md.
-> A PROMPTS_USED.md, with records of your prompts used for app development.
+> **Issue**: The export modal renders below the visible viewport, requiring the user to scroll down to interact with it.
+>
+> **Expected behavior**: The modal should appear centered and fixed within the viewport overlay, visible immediately upon clicking the Export button regardless of the current scroll position.
 
-## Prompt 5 — Docker Support
+## Prompt 4 — Project Documentation Suite
 
-> If I push this project to my GitHub repo, will this project work/run in Docker?
+> Generate the following documentation files at the project root:
+> - **README.md**: Setup instructions (how to install and run), and a summary of implemented features.
+> - **AI_NOTES.md**: Document which parts of development used AI assistance, which parts were manually verified, and specify the LLM/provider used at runtime (if any) with rationale.
+> - **ABOUTME.md**: Placeholder for developer name and resume.
+> - **PROMPTS_USED.md**: Chronological log of all prompts used during development, excluding agent responses and API keys.
+
+## Prompt 5 — Docker Containerization
+
+> Evaluate and configure Docker support for the project so it can be cloned from GitHub and run inside a Docker container. Add all necessary configuration files (`Dockerfile`, `.dockerignore`) following best practices for a Node.js/React production build.
+
+## Prompt 6 — Prompt Log Update
+
+> Append the Docker containerization prompt (Prompt 5) to the `PROMPTS_USED.md` file to maintain a complete development log.
+
+## Prompt 7 — GitHub Deployment
+
+> Initialize a Git repository, commit all project files, and push to the remote repository at:
+> `https://github.com/Prakashsuriya/SpecFlow.git`
+>
+> Ensure `node_modules` and build artifacts are excluded via `.gitignore`.
+
+## Prompt 8 — Vercel Hosting
+
+> Provide deployment instructions for hosting the application on Vercel, leveraging the existing GitHub repository integration for automated builds and previews.
+
+## Prompt 9 — ABOUTME.md Update
+
+> Replace the placeholder resume content in `ABOUTME.md` with a link to the developer's resume hosted on Google Drive:
+> `https://drive.google.com/file/d/1UyaLoTJeGChFZQjE86lK0j4vtNAPMkZW/view?usp=sharing`
+
+
+## Prompt 10 — README Enhancement & Deployment Details
+
+> Add the deployed Vercel link (`https://spec-flow-navy.vercel.app/`) to the README. Include sections for deployment details, GitHub repository link, and comprehensive instructions for running the project locally and via Docker. Update `PROMPTS_USED.md` to include this prompt.
+
+## Prompt 11 — Prompt Log Consolidation
+
+> Audit the `PROMPTS_USED.md` file and ensure all prompts from the development session are captured in chronological order with correct sequential numbering. Refine prompt descriptions for clarity and professional presentation while preserving the original intent of each prompt.
